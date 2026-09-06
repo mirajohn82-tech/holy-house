@@ -1,7 +1,7 @@
 import CardCarousel from "./CardCarousel";
-import imgImage21 from "@/imports/Home/46e0ad5d2292588534735da85f39f1fb7a1ccd61.png";
-import imgImage23 from "@/imports/Home/f85ff10a38f501a32384c05b3ad21addca94bb76.png";
-import imgImage22 from "@/imports/Home/ebd6d59171a68894f8c53edbc36f4e6468db61e2.png";
+const imgImage21 = "/images/46e0ad5d2292588534735da85f39f1fb7a1ccd61.png";
+const imgImage23 = "/images/f85ff10a38f501a32384c05b3ad21addca94bb76.png";
+const imgImage22 = "/images/ebd6d59171a68894f8c53edbc36f4e6468db61e2.png";
 
 const CARDS = [
   { image: imgImage21, title: "Be Careful", description: "gymnastics contains many elements, such as: speed, strength, coordination, and flexibility. It also requires a lot of perseverance and skills." },

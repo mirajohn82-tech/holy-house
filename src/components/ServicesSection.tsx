@@ -1,7 +1,7 @@
 import CardCarousel from "./CardCarousel";
-import imgImage20 from "@/imports/Home/569438527af95f2f8544f6ee0c1ddcf8c70f9cb6.png";
-import imgImage18 from "@/imports/Home/72b57c7810377d73746722196224894bf1eb4e34.png";
-import imgImage19 from "@/imports/Home/f6753cb2da3ccc18c321a1802706c9b00986b384.png";
+const imgImage20 = "/images/569438527af95f2f8544f6ee0c1ddcf8c70f9cb6.png";
+const imgImage18 = "/images/72b57c7810377d73746722196224894bf1eb4e34.png";
+const imgImage19 = "/images/f6753cb2da3ccc18c321a1802706c9b00986b384.png";
 
 const CARDS = [
   { image: imgImage20, title: "Robot and programming", description: "gymnastics contains many elements, such as: speed, strength, coordination, and flexibility. It also requires a lot of perseverance and skills." },
