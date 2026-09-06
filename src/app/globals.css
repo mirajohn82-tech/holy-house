@@ -1,40 +1,47 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&family=Inter:wght@400&family=Aclonica:wght@400&display=swap');
 @import 'tailwindcss';
 
 @font-face {
   font-family: "Poppins:Bold";
   font-style: normal;
   font-weight: 700;
-  src: local("Poppins Bold"), local("Poppins-Bold");
+  src: url('https://fonts.gstatic.com/s/poppins/v21/pxiByp8kv8JHgFVrLCz7Z1xlFd2JQEk.woff2') format('woff2');
+  font-display: swap;
 }
 @font-face {
   font-family: "Poppins:SemiBold";
   font-style: normal;
   font-weight: 600;
-  src: local("Poppins SemiBold"), local("Poppins-SemiBold");
+  src: url('https://fonts.gstatic.com/s/poppins/v21/pxiByp8kv8JHgFVrLEj6Z1xlFd2JQEk.woff2') format('woff2');
+  font-display: swap;
 }
 @font-face {
   font-family: "Poppins:Medium";
   font-style: normal;
   font-weight: 500;
-  src: local("Poppins Medium"), local("Poppins-Medium");
+  src: url('https://fonts.gstatic.com/s/poppins/v21/pxiByp8kv8JHgFVrLGT9Z1xlFd2JQEk.woff2') format('woff2');
+  font-display: swap;
 }
 @font-face {
   font-family: "Poppins:Regular";
   font-style: normal;
   font-weight: 400;
-  src: local("Poppins"), local("Poppins-Regular");
+  src: url('https://fonts.gstatic.com/s/poppins/v21/pxiEyp8kv8JHgFVrJJfecg.woff2') format('woff2');
+  font-display: swap;
 }
 @font-face {
   font-family: "Inter:Regular";
   font-style: normal;
   font-weight: 400;
-  src: local("Inter"), local("Inter-Regular");
+  src: url('https://fonts.gstatic.com/s/inter/v18/UcC73FwrK3iLTeHuS_fjbvMwCp50SbIz2bohoXoYljl3Hv0PBw.woff2') format('woff2');
+  font-display: swap;
 }
 @font-face {
   font-family: "Aclonica:Regular";
   font-style: normal;
   font-weight: 400;
-  src: local("Aclonica"), local("Aclonica-Regular");
+  src: url('https://fonts.gstatic.com/s/aclonica/v23/K2F0fZBRmr9vQ1pHEey6GIGo8_pv3myYjuXwe65ghj3OoapL.woff2') format('woff2');
+  font-display: swap;
 }
 
 html, body { height: 100%; }
