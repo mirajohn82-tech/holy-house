@@ -1,6 +1,5 @@
 "use client";
 import { useState, useLayoutEffect, useRef } from "react";
-import { StaticImageData } from "next/image";
 import ContentCard from "./ContentCard";
 import svgPaths from "@/imports/Home/svg-faniy7js1a";
 
@@ -8,7 +7,7 @@ const CARD_W = 346;
 const GAP = 24;
 const STEP = CARD_W + GAP;
 
-interface CardData { image: StaticImageData | string; title: string; description: string; }
+interface CardData { image: string; title: string; description: string; }
 interface CardCarouselProps { cards: CardData[]; }
 
 export default function CardCarousel({ cards }: CardCarouselProps) {
