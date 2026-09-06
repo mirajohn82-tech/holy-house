@@ -44,7 +44,7 @@
   font-display: swap;
 }
 
-html, body { height: 100%; }
+html, body { height: 100%; overflow-x: hidden; width: 100%; }
 
 [aria-hidden="true"] { display: revert; visibility: visible; pointer-events: none; }
 [data-name] img { display: block; visibility: visible; }
