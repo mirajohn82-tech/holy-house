@@ -1,0 +1,79 @@
+@import 'tailwindcss';
+
+@font-face {
+  font-family: "Poppins:Bold";
+  font-style: normal;
+  font-weight: 700;
+  src: local("Poppins Bold"), local("Poppins-Bold");
+}
+@font-face {
+  font-family: "Poppins:SemiBold";
+  font-style: normal;
+  font-weight: 600;
+  src: local("Poppins SemiBold"), local("Poppins-SemiBold");
+}
+@font-face {
+  font-family: "Poppins:Medium";
+  font-style: normal;
+  font-weight: 500;
+  src: local("Poppins Medium"), local("Poppins-Medium");
+}
+@font-face {
+  font-family: "Poppins:Regular";
+  font-style: normal;
+  font-weight: 400;
+  src: local("Poppins"), local("Poppins-Regular");
+}
+@font-face {
+  font-family: "Inter:Regular";
+  font-style: normal;
+  font-weight: 400;
+  src: local("Inter"), local("Inter-Regular");
+}
+@font-face {
+  font-family: "Aclonica:Regular";
+  font-style: normal;
+  font-weight: 400;
+  src: local("Aclonica"), local("Aclonica-Regular");
+}
+
+html, body { height: 100%; }
+
+[aria-hidden="true"] { display: revert; visibility: visible; pointer-events: none; }
+[data-name] img { display: block; visibility: visible; }
+
+.home-page-wrapper .px-\[120px\] { padding-left: 80px !important; padding-right: 80px !important; }
+.home-page-wrapper .gap-\[112px\] { gap: 64px !important; }
+.home-page-wrapper .bg-\[\#3e5082\] { transition: background-color 180ms ease; cursor: pointer; }
+.home-page-wrapper .bg-\[\#3e5082\]:hover { background-color: #2b3c6b !important; }
+.home-page-wrapper .text-\[0px\] p:last-child { cursor: pointer; transition: color 150ms ease; }
+.home-page-wrapper .text-\[0px\] p:last-child:hover { color: #ef514c !important; }
+
+[class*="font-['Poppins:Bold'"] { font-weight: 700; }
+[class*="font-['Poppins:SemiBold'"] { font-weight: 600; }
+[class*="font-['Poppins:Medium'"] { font-weight: 500; }
+[class*="font-['Poppins:Regular'"] { font-weight: 400; }
+[class*="font-['Aclonica:Regular'"] { font-weight: 400; }
+[class*="font-['Inter:Regular'"] { font-weight: 400; }
+
+.home-page-wrapper [class*="Poppins:Medium"][class*="#1d1b1b"] { transition: color 150ms ease; cursor: pointer; }
+.home-page-wrapper [class*="Poppins:Medium"][class*="#1d1b1b"]:hover { color: #ef514c !important; }
+
+.home-page-wrapper [data-name="image 5"] img { mix-blend-mode: normal !important; opacity: 0.75 !important; }
+.home-page-wrapper [class*="mix-blend-luminosity"] { mix-blend-mode: normal !important; opacity: 0.75 !important; }
+
+.home-page-wrapper [class*="leading-[56px]"] { line-height: 1 !important; }
+.home-page-wrapper [class*="gap-[112px]"] [class*="gap-[16px]"] { gap: 4px !important; }
+
+.home-page-wrapper .relative.rounded-\[5px\]:not(.bg-\[\#3e5082\]):hover .text-\[\#3e5082\] { color: #ef514c !important; }
+.home-page-wrapper .relative.rounded-\[5px\]:not(.bg-\[\#3e5082\]):hover path[fill="#3E5082"],
+.home-page-wrapper .relative.rounded-\[5px\]:not(.bg-\[\#3e5082\]):hover path[fill="#3e5082"] { fill: #ef514c !important; }
+
+.home-page-wrapper [class*="text-shadow-[0px_0px_8.4px"] > p:last-child { margin-top: 16px; }
+.home-page-wrapper [class*="text-shadow-[0px_0px_8.4px"] > p:last-child span { line-height: 1.2 !important; font-size: 16px !important; color: #fefefe !important; font-weight: 400 !important; }
+
+.home-page-wrapper .bg-\[\#e3e7f1\] { transition: background-color 150ms ease; cursor: pointer; }
+.home-page-wrapper .bg-\[\#e3e7f1\]:hover { background-color: #3e5082 !important; }
+.home-page-wrapper .bg-\[\#e3e7f1\]:hover path[fill="#3E5082"] { fill: #fefefe !important; transition: fill 150ms ease; }
+
+[data-home-import] .top-\[3407px\], [data-home-import] .top-\[5080px\] { display: none !important; }
